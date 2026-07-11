@@ -1,8 +1,6 @@
 name: build
 
-on:
-  push:
-
+on: [push, pull_request, workflow_dispatch]
 env:
   HVCC_VERSION: 9fe1ea149e8d1314e4cea01bb467e4f540f2bca0
 
